@@ -37,3 +37,9 @@ ShopContext
  component is a custom context that is used to share data between different components in the application.
 
 Overall, this code sets up a basic React application with client-side routing and a common layout component.
+
+HOME.JS
+
+This code is a React component that renders the home page of a website. It includes sections for featured products, repair services, new arrivals, hot deals, blogs, and a newsletter subscription form. The component uses various React components such as Featuredproducts, Newarrivals, and Newsletter. It also imports images and blog posts for use in the blogs section. The code is written in JavaScript and uses JSX syntax to define the component's structure and styling.
+
+
