@@ -1,4 +1,6 @@
 # apneck
+APP.JS
+
 Apneck is a responsive full eccomerce website
 This code is a React application that uses the React Router library to handle client-side routing. It defines several routes for different pages of the application, such as the home page, about page, shop page, contact page, login page, signup page, forgot password page, cart page, checkout page, blog page, and product details page.
 
