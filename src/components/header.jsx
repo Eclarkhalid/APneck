@@ -34,7 +34,7 @@ const header = () => {
       <div className="row">
         <div className="d-flex align-items-center justify-content-between d-none d-md-flex">
           <div className="col-md-8 me-auto">
-            <p>The trending outfits at 100% off</p>
+            <p className='text-black'>The trending outfits at 100% off</p>
           </div>
           <div className="col-md-2">
           <a href="tel:+254708118414">Call us at +1 (234) 567-890</a>

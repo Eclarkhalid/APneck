@@ -850,6 +850,17 @@ footer .footer-tel:hover{
   .banner h1, p{
     color: white;
   }
+p{
+  color: var(--primary1);
+}
+
+.carousel-inner .text{
+  color: white;
+}
+
+.carousel-inner h1{
+  color: var(--search);
+}
 }
 
 /* cart-ends-here */

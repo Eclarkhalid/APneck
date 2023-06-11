@@ -24,7 +24,7 @@ const home = () => {
             <div id="carouselExampleInterval" className="carousel slide" data-bs-ride="carousel">
               <div className="carousel-inner">
                   <div className='back-details'>
-                  <p className='mb-3'>Trade in offer</p>
+                  <p className='mb-3 text'>Trade in offer</p>
                   <h1>Super Value Deals</h1>
                   <h2>On all products</h2>
 

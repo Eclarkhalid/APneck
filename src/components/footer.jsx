@@ -4,7 +4,7 @@ import { BsDiscord } from 'react-icons/bs'
 import { Link } from 'react-router-dom';
 import { BsTwitter } from 'react-icons/bs'
 import { BsFacebook } from 'react-icons/bs'
-import { BsSlack } from 'react-icons/bs'
+import { BsSlack, BsGithub } from 'react-icons/bs'
 import playstore from '../assets/images/pay/play.jpg'
 import appstore from '../assets/images/pay/app.jpg'
 import visa from '../assets/images/pay/pay.png'
@@ -27,8 +27,8 @@ const footer = () => {
           <Link to='https://twitter.com/eclarkhalid' id='footer-link' target='_blank' className='gap-3'>
           <BsTwitter />
           </Link>
-          <Link className='gap-3' id='footer-link'>
-          <BsFacebook />
+          <Link to={'https://github.com/Eclarkhalid'} className='gap-3' id='footer-link'>
+          <BsGithub />
           </Link>
           <Link to='https://app.slack.com/client/T0195LMKD1R/D04QEBN1J80/rimeto_profile/U04PQHERFM1?cdn_fallback=2' id='footer-link' target='_blank' className='gap-3'>
           <BsSlack />
