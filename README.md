@@ -97,6 +97,8 @@ Facebook has adopted a Code of Conduct that we expect project participants to ad
 Contributing Guide
 Read our contributing guide to learn about our development process, how to propose bugfixes and improvements, and how to build and test your changes to React.
 
+Deployment-url = https://a-pneck-4cvbvszed-eclarkhalid.vercel.app
+
 Good First Issues
 To help you get your feet wet and get you familiar with our contribution process, we have a list of good first issues that contain bugs that have a relatively limited scope. This is a great place to get started.
 
