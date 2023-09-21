@@ -16,9 +16,11 @@
     "react-dom": "^18.2.0",
     "react-fast-marquee": "^1.5.2",
     "react-icons": "^4.8.0",
+    "react-lazyload": "^3.2.0",
     "react-rating-stars-component": "^2.2.0",
     "react-router-dom": "^6.11.1",
-    "react-router-use-history": "^1.0.0"
+    "react-router-use-history": "^1.0.0",
+    "vanilla-lazyload": "^17.8.4"
   },
   "devDependencies": {
     "@types/react": "^18.0.28",

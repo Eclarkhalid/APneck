@@ -15,6 +15,7 @@ import Blog from './pages/blog'
 import './App.css'
 import ShopContext from './components/shopcontext'
 import Details from './pages/details'
+import LazyLoad from 'react-lazyload';
 
 function ScrollToTop() {
   const { pathname } = useLocation();
@@ -28,31 +29,107 @@ function ScrollToTop() {
 
 
 function App() {
-
   return (
     <>
-    <ShopContext>
-    <BrowserRouter>
-    <ScrollToTop />
-    <Routes>
-      <Route path='/' element={<Layout />}>
-        <Route index element={<Home />} />
-        <Route path='shop' element={<Shop />} />
-        <Route path='blog' element={<Blog />} />
-        <Route path='about' element={<About />} />
-        <Route path='contact' element={<Contact />} />
-        <Route path='login' element={<Login />} />
-        <Route path='signup' element={<Signup />} />
-        <Route path='forgotpasword' element={<Forgotpasword />} />
-        <Route path='cart' element={<Cart />} />
-        <Route path='checkout' element={<Checkout />} />
-        <Route path='details' element={<Details />} />
-      </Route>
-    </Routes>
-    </BrowserRouter>
-    </ShopContext>
+      <ShopContext>
+        <BrowserRouter>
+          <ScrollToTop />
+          <Routes>
+            <Route path='/' element={<Layout />}>
+              <Route
+                index
+                element={
+                  <LazyLoad height={200} offset={100}>
+                    <Home />
+                  </LazyLoad>
+                }
+              />
+              <Route
+                path='shop'
+                element={
+                  <LazyLoad height={200} offset={100}>
+                    <Shop />
+                  </LazyLoad>
+                }
+              />
+              <Route
+                path='blog'
+                element={
+                  <LazyLoad height={200} offset={100}>
+                    <Blog />
+                  </LazyLoad>
+                }
+              />
+              <Route
+                path='about'
+                element={
+                  <LazyLoad height={200} offset={100}>
+                    <About />
+                  </LazyLoad>
+                }
+              />
+              <Route
+                path='contact'
+                element={
+                  <LazyLoad height={200} offset={100}>
+                    <Contact />
+                  </LazyLoad>
+                }
+              />
+              <Route
+                path='login'
+                element={
+                  <LazyLoad height={200} offset={100}>
+                    <Login />
+                  </LazyLoad>
+                }
+              />
+              <Route
+                path='signup'
+                element={
+                  <LazyLoad height={200} offset={100}>
+                    <Signup />
+                  </LazyLoad>
+                }
+              />
+              <Route
+                path='forgotpasword'
+                element={
+                  <LazyLoad height={200} offset={100}>
+                    <Forgotpasword />
+                  </LazyLoad>
+                }
+              />
+              <Route
+                path='cart'
+                element={
+                  <LazyLoad height={200} offset={100}>
+                    <Cart />
+                  </LazyLoad>
+                }
+              />
+              <Route
+                path='checkout'
+                element={
+                  <LazyLoad height={200} offset={100}>
+                    <Checkout />
+                  </LazyLoad>
+                }
+              />
+              <Route
+                path='details'
+                element={
+                  <LazyLoad height={200} offset={100}>
+                    <Details />
+                  </LazyLoad>
+                }
+              />
+            </Route>
+          </Routes>
+        </BrowserRouter>
+      </ShopContext>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
