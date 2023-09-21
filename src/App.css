@@ -178,7 +178,7 @@ max-width: 100%;
 
 .banner .back-details{
   background: url(/src/assets/images/back.jpg);
-  height: 80vh;
+  height: 30vh;
   background-position: top 25% right 0;
   background-size: cover;
   width: 100%;
@@ -848,7 +848,7 @@ footer .footer-tel:hover{
     max-width: 100px;
   }
   .banner h1, p{
-    color: white;
+    color: black;
   }
 p{
   color: var(--primary1);
