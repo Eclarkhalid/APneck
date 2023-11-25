@@ -49,7 +49,7 @@ const header = () => {
             <p>Save Upto 100%</p>
           </div>
           <div className="col-md-2 m-auto">
-          <a href="tel:+254708118414">Call us</a>
+          <a href="tel:+">Call us</a>
           </div>
           <div className="col-md-2 m-auto">
             <Link className='links fs-4'><CiMail /></Link>
